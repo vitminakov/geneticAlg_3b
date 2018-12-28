@@ -21,5 +21,35 @@ namespace _3bGeneticsAlg
         {
             lbFiles.Items.Add(nudElem.Value);
         }
+
+        private void btnDel_Click(object sender, EventArgs e)
+        {
+            lbFiles.Items.Remove(lbFiles.SelectedItem);
+        }
+
+        private void btnClear_Click(object sender, EventArgs e)
+        {
+            ClearAll();
+            lbFiles.Items.Clear();
+        }
+
+        private void ClearAll()
+        {
+            tbExact.Clear();
+            tbTimeEx.Clear();
+            tbTimeGen.Clear();
+            tbGen.Clear();
+        }
+
+        private void btnGenerate_Click(object sender, EventArgs e)
+        {
+            Random r = new Random();
+            lbFiles.Items.Clear();
+            int capacity = (int)CapacityBox.Value;
+            for (int i = 0; i < nudItems.Value; i++)
+            {
+                lbFiles.Items.Add(r.Next(1, capacity));
+            }
+        }
     }
 }

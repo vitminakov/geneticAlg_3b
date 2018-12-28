@@ -251,6 +251,7 @@
             this.btnDel.TabIndex = 7;
             this.btnDel.Text = "Удалить";
             this.btnDel.UseVisualStyleBackColor = true;
+            this.btnDel.Click += new System.EventHandler(this.btnDel_Click);
             // 
             // btnAdd
             // 
@@ -319,6 +320,7 @@
             this.btnGenerate.TabIndex = 31;
             this.btnGenerate.Text = "Сгенерировать N размеров дискет";
             this.btnGenerate.UseVisualStyleBackColor = true;
+            this.btnGenerate.Click += new System.EventHandler(this.btnGenerate_Click);
             // 
             // groupBox2
             // 
@@ -342,6 +344,7 @@
             this.btnClear.TabIndex = 15;
             this.btnClear.Text = "Очистить";
             this.btnClear.UseVisualStyleBackColor = true;
+            this.btnClear.Click += new System.EventHandler(this.btnClear_Click);
             // 
             // Form1
             // 
