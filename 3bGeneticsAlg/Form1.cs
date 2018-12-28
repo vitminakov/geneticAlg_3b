@@ -16,5 +16,10 @@ namespace _3bGeneticsAlg
         {
             InitializeComponent();
         }
+
+        private void btnAdd_Click(object sender, EventArgs e)
+        {
+            lbFiles.Items.Add(nudElem.Value);
+        }
     }
 }
