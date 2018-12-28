@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace _3bGenetic.Properties
+namespace _3bGeneticsAlg.Properties
 {
 
 

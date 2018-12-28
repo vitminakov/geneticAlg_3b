@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{859DFD16-5DA3-4988-A8D9-28A84DF5F605}</ProjectGuid>
+    <ProjectGuid>{956F94C0-4CD8-439B-9661-59642B7779A6}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>_3bGenetic</RootNamespace>
-    <AssemblyName>3bGenetic</AssemblyName>
+    <RootNamespace>_3bGeneticsAlg</RootNamespace>
+    <AssemblyName>3bGeneticsAlg</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -47,25 +47,17 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BackTrackAlgorithm.cs" />
+    <Compile Include="CorrectAlgorithm.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form2.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Form2.Designer.cs">
-      <DependentUpon>Form2.cs</DependentUpon>
-    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Form2.resx">
-      <DependentUpon>Form2.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

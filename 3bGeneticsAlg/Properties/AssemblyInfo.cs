@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // Общие сведения об этой сборке предоставляются следующим набором
 // набора атрибутов. Измените значения этих атрибутов, чтобы изменить сведения,
 // связанные со сборкой.
-[assembly: AssemblyTitle("3bGenetic")]
+[assembly: AssemblyTitle("3bGeneticsAlg")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("3bGenetic")]
+[assembly: AssemblyProduct("3bGeneticsAlg")]
 [assembly: AssemblyCopyright("Copyright ©  2018")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // Следующий GUID служит для идентификации библиотеки типов, если этот проект будет видимым для COM
-[assembly: Guid("859dfd16-5da3-4988-a8d9-28a84df5f605")]
+[assembly: Guid("956f94c0-4cd8-439b-9661-59642b7779a6")]
 
 // Сведения о версии сборки состоят из следующих четырех значений:
 //
